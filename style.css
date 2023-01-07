@@ -22,39 +22,43 @@ main{
 
      margin: 0 auto; 
 }
-.about{ 
-    margin-top: 130px; 
-    /* background-color: beige; */
-     /* border-radius: 20px;  */
-    text-align: right;
-    padding: 130px 150px;
 
-}
-.list{
-    list-style-type: none;
+.about{ 
+     text-align: left;
+     padding: 130px 150px;
+     display: flex;
+
 } 
-.section-tital{
+.details{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+ .section-tital{
     margin-top: 130px;
     text-align: center;
+    padding: 30px 50px;
     
-} 
+}  
 .skills-container{
-    display: flex;
-    gap: 24px;
+     display: flex;
+    gap: 24px; 
+    border-radius: 5px;
+    padding: 20px;
 
 }
 .skill{
-    font-weight: 700;
-    font-size:20px ;
-    margin-top:30px ;
-}
-.skill-title{
-    font-weight: 500;
+    border-radius: 5px;
+    padding: 30px;
+} 
+.skill-tital{
     font-size: 20px;
-}
-.skill-description{
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-bottom:20px ;
 
 }
+ 
+
 
 
 
